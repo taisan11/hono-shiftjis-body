@@ -1,9 +1,9 @@
 {
     "$schema": "https://jsr.io/schema/config-file.v1.json",
-    "name": "hono-shiftjis-body",
+    "name": "@taisan11/hono-shiftjis",
     "exports":"./src/index.ts",
     "version": "0.0.1",
     "publish": {
-        "exclude": []
+        "exclude": ["./src/indextest.tsx"]
     }
 }
